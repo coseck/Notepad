@@ -1,6 +1,6 @@
 {
    "version": 2,
-   "name": "NewsLetter_signUp",
+   "name": "Notepad",
    "builds": [
       { "src": "app.js", "use": "@vercel/node" }
    ],
