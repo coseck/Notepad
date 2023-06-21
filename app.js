@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 main().catch(err => console.log(err));
 async function main() {
-  await mongoose.connect(process.env.LINKM);
+  await mongoose.connect("mongodb+srv://manis-admin:manish123321@cluster0.xenalfe.mongodb.net/todoDB");
 // mongodb://127.0.0.1:27017/notesDB'
 }
 // mongoose.connect("mongodb://localhost:27017/notesDB");
